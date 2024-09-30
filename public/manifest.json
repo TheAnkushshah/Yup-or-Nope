@@ -1,0 +1,19 @@
+{
+    "short_name": "Yup or Nope",
+    "name": "Yup or Nope",
+    "icons": [
+      {
+        "src": "/logo.png",
+        "type": "image/png",
+        "sizes": "350x350"
+      },
+      {
+        "src": "/apple-touch-icon.png",
+        "type": "image/png",
+        "sizes": "350x350"
+      }
+    ],
+    "start_url": "/.",
+    "display": "standalone",
+    "theme_color": "#ffffff"
+  }
