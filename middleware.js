@@ -1,21 +1,16 @@
-import { NextResponse } from 'next/server';
-import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
-
-// This function is marked `async` since it uses `await` inside
+import { NextResponse } from 'next/server'
+import {getKindeServerSession} from "@kinde-oss/kinde-auth-nextjs/server";
+ 
+// This function can be marked `async` if using `await` inside
 export async function middleware(request) {
-  // Await the session retrieval
-  const session = await getKindeServerSession();
+    const { isAuthenticated } = getKindeServerSession();
 
-  if (!session.isAuthenticated()) {
-    // Redirect the user to the login page if they are not authenticated
-    return NextResponse.redirect(new URL('/api/auth/login?post_login_redirect_url=/dashboard', request.url));
-  }
-
-  // Allow the request to continue if the user is authenticated
-  return NextResponse.next();
+    if (!(await isAuthenticated())) {
+        return NextResponse.redirect(new URL('/api/auth/login?post_login_redirect_url=/dashboard', request.url))
+    }
 }
-
-// Configure middleware to run on all `/dashboard` routes
+ 
+// See "Matching Paths" below to learn more
 export const config = {
   matcher: '/dashboard/:path*',
-};
+}
