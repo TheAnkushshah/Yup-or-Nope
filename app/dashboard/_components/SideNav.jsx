@@ -81,7 +81,7 @@ function SideNav() {
       id: 12,
       name: 'Settings',
       icon: Settings,
-      path: '#'
+      path: '/dashboard/settings'
     },
   ]
   const path = usePathname();
