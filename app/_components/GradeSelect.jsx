@@ -18,7 +18,7 @@ function GradeSelect({selectedGrade}) {
     return (
         <div>
             <select
-                className="p-2 border rounded-lg focus:!outline-none focus:!ring-0 text-black" // Set text color to black
+                className="p-2 border rounded-lg bg-white text-black focus:!outline-none focus:!ring-0" // Set text color to black
                 onChange={(e)=>selectedGrade(e.target.value)}
             >
                 {grades.map((item, index) => (
