@@ -10,6 +10,42 @@
   }
 }
 
+/* Custom scrollbar for vertical scrollbar */
+::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 95%); /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 70%); /* Thumb color */
+}
+
+::-webkit-scrollbar-track:horizontal {
+  background: hsl(0, 0%, 95%); /* Track color for horizontal */
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: hsl(0, 0%, 70%); /* Thumb color for horizontal */
+}
+
+/* Dark mode scrollbars */
+.dark ::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 30%); /* Track color in dark mode */
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 50%); /* Thumb color in dark mode */
+}
+
+.dark ::-webkit-scrollbar-track:horizontal {
+  background: hsl(0, 0%, 30%); /* Track color for horizontal in dark mode */
+}
+
+.dark ::-webkit-scrollbar-thumb:horizontal {
+  background: hsl(0, 0%, 50%); /* Thumb color for horizontal in dark mode */
+}
+
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
