@@ -20,8 +20,11 @@ export const STUDENTS = pgTable('students', {
 // Attendance table definition with foreign key reference
 export const ATTENDANCE = pgTable('attendance', {
   id: serial('id').primaryKey(),
-  studentId: integer('studentId').notNull().references(() => STUDENTS.id),  // Foreign key reference
+  studentId: integer('studentId')
+    .notNull()
+    .references(() => STUDENTS.id, { onDelete: 'CASCADE', onUpdate: 'CASCADE' }),  // Cascade deletes and updates
   present: boolean('present').default(false),
-  day: integer('day').notNull(),  // Adjusted day type to integer
-  date: varchar('date', { length: 20 }).notNull()
+  day: integer('day').notNull(),
+  date: varchar('date', { length: 20 }).notNull(),
 });
+
