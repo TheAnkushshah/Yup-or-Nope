@@ -7,7 +7,7 @@ function Settings() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-cover bg-center" 
          style={{ 
-           backgroundImage: "url('https://i.pinimg.com/originals/b2/76/93/b276939d53dcd373ff2571ca455ea97c.gif')", 
+           backgroundImage: "url('https://i.pinimg.com/originals/64/20/b7/6420b726daf8d0b7203c2abe58222447.gif')", 
            backgroundSize: 'cover', 
            backgroundRepeat: 'no-repeat',
            backgroundPosition: 'center'
