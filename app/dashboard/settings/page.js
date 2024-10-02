@@ -5,12 +5,13 @@ import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components"; // Correct
 
 function Settings() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-cover bg-center" 
+    <div className="flex items-center justify-center min-h-screen bg-cover bg-center overflow-hidden" 
          style={{ 
-           backgroundImage: "url('https://i.pinimg.com/originals/b5/38/ea/b538eadb040f2ae588d93f1bc36aa679.gif')", 
+           backgroundImage: "url('https://i.pinimg.com/originals/7b/0b/da/7b0bdab237fea4ef5df4e13d1dc0344b.gif')", 
            backgroundSize: 'cover', 
            backgroundRepeat: 'no-repeat',
-           backgroundPosition: 'center'
+           backgroundPosition: 'center',
+           height: '100vh',
          }}>
       <div className="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg max-w-md w-full">
         <h1 className="text-3xl font-bold text-center mb-4 text-gray-800">Account Settings</h1>
@@ -18,9 +19,9 @@ function Settings() {
         
         <div className="flex flex-col items-center">
           <LogoutLink className="bg-red-500 text-white py-3 px-6 rounded-lg hover:bg-red-600 transition duration-300 ease-in-out transform hover:scale-105 mb-4 w-full text-center">
-            Goodbye !
+            Goodbye!
           </LogoutLink>
-          <p className="text-gray-500 text-sm text-center">Click the button above to logout of your account :(</p>
+          <p className="text-gray-500 text-sm text-center">Click the button above to log out of your account :(</p>
         </div>
       </div>
     </div>
