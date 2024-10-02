@@ -91,7 +91,7 @@ function StudentListTable({ studentList, refrestData }) {
                     <input
                         type="text"
                         placeholder='Search on Anything...'
-                        className='outline-none w-full bg-white text-black dark:bg-gray-800 dark:text-white'
+                        className='outline-none w-full bg-white text-black'
                         onChange={(event) => setSearchInput(event.target.value)}
                     />
                 </div>
