@@ -79,7 +79,7 @@ function AddNewStudent({ refreshData }) {
                 <div className="py-3 flex flex-col">
                   <label className="mb-2 block">Select Grade</label>
                   <select
-                    className="p-3 border rounded-lg focus:!outline-none focus:!ring-0 text-black"
+                    className="p-3 border rounded-lg bg-white text-black dark:bg-gray-800 dark:text-white focus:!outline-none focus:!ring-0"
                     {...register('grade', { required: true })}>
                       {grades.map((item, index) => (
                       <option key={index} value={item.grade}>

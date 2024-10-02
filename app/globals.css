@@ -72,6 +72,16 @@
   }
 }
 
+input {
+  @apply bg-white text-black; /* Set background to white and text color to black */
+}
+
+@media (prefers-color-scheme: dark) {
+  input {
+    @apply bg-gray-800 text-white; /* Change background and text color for dark mode */
+  }
+}
+
 @layer base {
   * {
     @apply border-border;
