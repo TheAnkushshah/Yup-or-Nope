@@ -43,7 +43,7 @@ function BarChartComponent({ attendanceList, totalPresentData }) {
                     <XAxis dataKey="day" />
                     <YAxis />
                     <Tooltip />
-                    <Legend 
+                    <Legend
                         iconType="circle"  // Use circular icons
                         iconSize={12}      // Adjust the size of the icons
                         formatter={(value) => (
