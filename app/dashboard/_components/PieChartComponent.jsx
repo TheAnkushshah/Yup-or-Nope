@@ -24,12 +24,12 @@ function PieChartComponent({ attendanceList }) {
 
       setData([
         {
-          name: 'P',
+          name: 'Present',  // Optional: can be removed as it won't be shown
           fill: "url(#presentGradient)",
           value: Number(presentPercentage.toFixed(1)),
         },
         {
-          name: 'A',
+          name: 'Absent',  // Optional: can be removed as it won't be shown
           value: Number(absentPercentage.toFixed(1)),
           fill: "url(#absentGradient)",
         },
@@ -37,8 +37,8 @@ function PieChartComponent({ attendanceList }) {
     }
   }, [attendanceList]);
 
-  // Custom label function to add percentage sign
-  const renderLabel = (entry) => `${entry.name}: ${entry.value}%`;
+  // Custom label function to only display percentage
+  const renderLabel = (entry) => `${entry.value}%`;
 
   return (
     <div className='border p-5 rounded-lg'>
