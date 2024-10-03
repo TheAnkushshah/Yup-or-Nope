@@ -1,14 +1,13 @@
-"use client"
+"use client";
 
-import { useKindeBrowserClient } from '@kinde-oss/kinde-auth-nextjs'
-import { LayoutIcon, GraduationCap, Hand, Settings, Download, Smartphone, Laptop, Headset, Send, Mail, PhoneCall, MapPin } from 'lucide-react'
-import Image from 'next/image'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import React, { useEffect } from 'react'
+import { useKindeBrowserClient } from '@kinde-oss/kinde-auth-nextjs';
+import { LayoutIcon, GraduationCap, Hand, Settings, Download, Smartphone, Laptop, Headset, Send, Mail, PhoneCall, MapPin } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import React, { useEffect } from 'react';
 
-function SideNav() {
-
+function SideNav({ isOpen }) { // Accept isOpen prop
   const { user } = useKindeBrowserClient();
   const menuList = [
     {
@@ -83,21 +82,20 @@ function SideNav() {
       icon: Settings,
       path: '/dashboard/settings'
     },
-  ]
+  ];
+  
   const path = usePathname();
+  
   useEffect(() => {
     console.log(path);
-  }, [path])
+  }, [path]);
+  
   return (
-    <div className='border shadow-md h-screen p-2 py-5 overflow-hidden'>
+    <div className={`border shadow-md h-screen p-2 py-5 overflow-y-auto overflow-x-hidden transition-transform duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}>
       <Link href="/" className="flex items-center gap-3">
-        <Image src={'/op.png'}
-          width={440}
-          height={110}
-          alt='Yup or Nope'
-        />
+        <Image src={'/op.png'} width={440} height={110} alt='Yup or Nope' />
       </Link>
-
+      
       <hr className='my-5 -mx-2 w-screen'></hr>
 
       {menuList.map((menu) => (
@@ -109,19 +107,16 @@ function SideNav() {
         </Link>
       ))}
 
-
-      <div className='flex gap-3 items-center bottom-5 fixed p-4'>
-        <Image src={user?.picture} width={40}
-          height={40}
-          alt='user'
-          className='rounded-full' />
-        <div>
-          <h2 className='font-bold text-slate-800'>{user?.given_name} {user?.family_name}</h2>
-          <h2>{ }</h2>
+      <div className="pl-2 mt-9">
+        <div className='flex items-center gap-3'>
+          <Image src={user?.picture} width={45} height={45} alt='user' className='rounded-full' />
+          <div>
+            <h2 className='font-bold text-lg font-mono text-slate-800'>{user?.given_name} {user?.family_name}</h2>
+          </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default SideNav
+export default SideNav;

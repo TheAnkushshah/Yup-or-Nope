@@ -14,12 +14,12 @@ function Dashboard() {
     const [SelectedMonth, setSelectedMonth] = useState();
     const [selectedGrade, setSelectedGrade] = useState();
     const [attendanceList, setAttendanceList] = useState();
-    const [totalPresentData,setTotalPresentData] = useState([]);
+    const [totalPresentData, setTotalPresentData] = useState([]);
 
     useEffect(() => {
         GetTotalPresentCountByDay();
         getStudentAttendance();
-    }, [SelectedMonth||selectedGrade])
+    }, [SelectedMonth || selectedGrade])
 
     /**
      * Used to get Student Attendance for given month and date
@@ -31,11 +31,11 @@ function Dashboard() {
             })
     }
 
-    const GetTotalPresentCountByDay=()=>{
-        GlobalApi.TotalPresentCountByDay(moment(SelectedMonth).format('MM/yyyy'),selectedGrade)
-        .then(resp=>{
-            setTotalPresentData(resp.data);
-        })
+    const GetTotalPresentCountByDay = () => {
+        GlobalApi.TotalPresentCountByDay(moment(SelectedMonth).format('MM/yyyy'), selectedGrade)
+            .then(resp => {
+                setTotalPresentData(resp.data);
+            })
     }
 
     return (
@@ -43,7 +43,7 @@ function Dashboard() {
             <div className="flex justify-between items-center">
                 <h2 className="text-2xl font-bold">Home</h2>
 
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 max-sm:gap-[0.5rem]">
                     <MonthSelection SelectedMonth={setSelectedMonth} />
                     <GradeSelect selectedGrade={(v) => setSelectedGrade(v)} />
                 </div>
@@ -54,10 +54,10 @@ function Dashboard() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 <div className="md:col-span-2">
                     <BarChartComponent attendanceList={attendanceList}
-                    totalPresentData={totalPresentData}/>
+                        totalPresentData={totalPresentData} />
                 </div>
                 <div>
-                    <PieChartComponent attendanceList={attendanceList}/>
+                    <PieChartComponent attendanceList={attendanceList} />
                 </div>
             </div>
         </div>

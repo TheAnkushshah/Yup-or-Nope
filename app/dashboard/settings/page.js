@@ -13,7 +13,7 @@ function Settings() {
            backgroundPosition: 'center',
            height: '100vh',
          }}>
-      <div className="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg max-w-md w-full">
+      <div className="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg max-w-md w-full mb-36">
         <h1 className="text-3xl font-bold text-center mb-4 text-gray-800">Account Settings</h1>
         <p className="text-gray-600 text-center mb-6">Are you sure you want to log out?</p>
         

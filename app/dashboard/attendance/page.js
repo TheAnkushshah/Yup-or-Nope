@@ -28,7 +28,7 @@ function Attendance() {
             <h2 className='text-2xl font-bold'>Attendance</h2>
 
             {/* Search options */}
-            <div className='flex gap-5 my-4 p-5 border rounded-lg shadow-sm'>
+            <div className='flex gap-5 my-4 p-5 border rounded-lg shadow-sm max-sm:flex-col'>
                 <div className='flex items-center gap-3'>
                     <label>Select Month</label>
                     <MonthSelection SelectedMonth={(value) => setSelectedMonth(value)} />
