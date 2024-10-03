@@ -81,7 +81,7 @@ function StudentListTable({ studentList, refrestData }) {
     };
 
     return (
-        <div className='my-3'>
+        <div className='my-3 mb-[4.2rem]'>
             <div
                 className="ag-theme-quartz" // applying the Data Grid theme
                 style={{ height: 685 }} // the Data Grid will fill the size of the parent container
