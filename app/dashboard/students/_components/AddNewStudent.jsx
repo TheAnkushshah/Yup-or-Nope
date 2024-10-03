@@ -64,11 +64,11 @@ function AddNewStudent({ refreshData }) {
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>Onboard New Student 💤</DialogTitle>
+            <DialogTitle className="max-sm:mb-2">Onboard New Student 💤</DialogTitle>
             <DialogDescription>
               <form onSubmit={handleSubmit(onSubmit)}>
                 {/* Form Inputs */}
-                <div className="py-3">
+                <div className="py-3 max-sm:py-2">
                   <label className="mb-2 block">Full Name</label>
                   <Input
                     className="focus:!outline-none focus:!ring-0 text-black"
@@ -76,10 +76,10 @@ function AddNewStudent({ refreshData }) {
                     {...register('name', { required: true })}
                   />
                 </div>
-                <div className="py-3 flex flex-col">
+                <div className="py-3 flex flex-col max-sm:py-2">
                   <label className="mb-2 block">Select Grade</label>
                   <select
-                    className="p-3 border rounded-lg bg-white text-black focus:!outline-none focus:!ring-0"
+                    className="p-3 border rounded-lg bg-white text-black focus:!outline-none focus:!ring-0 max-sm:py-2"
                     {...register('grade', { required: true })}>
                       {grades.map((item, index) => (
                       <option key={index} value={item.grade}>
@@ -88,7 +88,7 @@ function AddNewStudent({ refreshData }) {
                     ))}
                   </select>
                 </div>
-                <div className="py-3">
+                <div className="py-3 max-sm:py-2">
                   <label className="mb-2 block">Section and Stream</label>
                   <Input
                     className="focus:!outline-none focus:!ring-0 text-black"
@@ -96,7 +96,7 @@ function AddNewStudent({ refreshData }) {
                     {...register('sectionandstream', { required: true })}
                   />
                 </div>
-                <div className="py-3">
+                <div className="py-3 max-sm:py-2">
                   <label className="mb-2 block">Roll Number</label>
                   <Input
                     type="number"
@@ -105,7 +105,7 @@ function AddNewStudent({ refreshData }) {
                     {...register('rollnumber', { required: true })}
                   />
                 </div>
-                <div className="py-3">
+                <div className="py-3 max-sm:py-2">
                   <label className="mb-2 block">Contact Number</label>
                   <Input
                     type="number"
@@ -114,7 +114,7 @@ function AddNewStudent({ refreshData }) {
                     {...register('contact', { required: true })}
                   />
                 </div>
-                <div className="py-3">
+                <div className="py-3 max-sm:py-2">
                   <label className="mb-2 block">Address</label>
                   <Input
                     className="focus:!outline-none focus:!ring-0 text-black"
@@ -123,7 +123,7 @@ function AddNewStudent({ refreshData }) {
                   />
                 </div>
 
-                <div className="flex gap-3 items-center justify-end mt-5">
+                <div className="flex gap-3 items-center justify-end mt-5 max-sm:mt-4">
                   <Button
                     type="button"
                     onClick={() => setOpen(false)}
