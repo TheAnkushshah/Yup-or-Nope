@@ -84,9 +84,9 @@ function StudentListTable({ studentList, refrestData }) {
         <div className='my-3'>
             <div
                 className="ag-theme-quartz" // applying the Data Grid theme
-                style={{ height: 698 }} // the Data Grid will fill the size of the parent container
+                style={{ height: 685 }} // the Data Grid will fill the size of the parent container
             >
-                <div className='p-2 rounded-lg border shadow-sm flex gap-2 mb-4 max-w-sm'>
+                <div className='p-2 rounded-lg border shadow-sm flex gap-2 mb-4 max-w-sm max-sm:mb-6'>
                     <Search />
                     <input
                         type="text"

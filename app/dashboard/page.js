@@ -40,10 +40,10 @@ function Dashboard() {
 
     return (
         <div className="p-7">
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center max-sm:flex-col gap-4">
                 <h2 className="text-2xl font-bold">Home</h2>
 
-                <div className="flex items-center gap-4 max-sm:gap-[0.5rem]">
+                <div className="flex items-center gap-4">
                     <MonthSelection SelectedMonth={setSelectedMonth} />
                     <GradeSelect selectedGrade={(v) => setSelectedGrade(v)} />
                 </div>
