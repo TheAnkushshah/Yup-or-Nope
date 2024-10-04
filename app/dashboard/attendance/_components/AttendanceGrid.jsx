@@ -8,7 +8,7 @@ import { toast } from 'sonner';
 import { getUniqueRecord } from '@/app/_services/service';
 
 const pagination = true;
-const paginationPageSize = 13;
+const paginationPageSize = 14;
 const paginationPageSizeSelector = [14, 28, 56, 112];
 
 function AttendanceGrid({ attendanceList, selectedMonth }) {
