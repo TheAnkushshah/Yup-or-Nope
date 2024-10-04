@@ -43,8 +43,8 @@ function PieChartComponent({ attendanceList }) {
   return (
     <div className='border p-5 rounded-lg'>
       <h2 className='my-1 font-bold text-lg'>Monthly Attendance</h2>
-      <ResponsiveContainer width={'100%'} height={312}>
-        <PieChart width={730} height={250}>
+      <ResponsiveContainer width={'100%'} height={300}>
+        <PieChart width={730} height={250} className='ml-6'>
           <Pie 
             data={data} 
             dataKey="value" 

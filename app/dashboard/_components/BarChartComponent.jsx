@@ -23,8 +23,8 @@ function BarChartComponent({ attendanceList, totalPresentData }) {
     };
 
     return (
-        <div className='p-5 border rounded-lg shadow-sm'>
-            <h2 className='my-1 mb-4 font-bold text-lg'>Attendance</h2>
+        <div className='border rounded-lg shadow-sm'>
+            <h2 className='my-1 p-5 font-bold text-lg'>Attendance</h2>
             <ResponsiveContainer width={'100%'} height={300}>
                 <BarChart data={data}>
                     <defs>

@@ -51,7 +51,7 @@ function Dashboard() {
 
             <StatusList attendanceList={attendanceList} />
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 md:flex flex-col gap-5">
                 <div className="md:col-span-2">
                     <BarChartComponent attendanceList={attendanceList}
                         totalPresentData={totalPresentData} />

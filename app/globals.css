@@ -108,10 +108,27 @@
   }
 }
 
-    .recharts-legend-wrapper {
-      width: 300px !important; /* Adjust as needed */
-      top: 280px
-    }
+@media (min-width: 767px) {
+  .recharts-responsive-container{
+    padding: 10px;
+  }
+}
+
+.recharts-responsive-container{
+  margin-bottom: 30px;
+}
+.recharts-wrapper{
+  right: 22px;
+}
+.recharts-legend-wrapper{
+  left: 39px !important;
+  bottom: 21px !important;
+  position: relative !important;
+}
+.recharts-surface{
+  margin-right: 7px !important;
+  margin-bottom: 3px;
+}
 
 input {
   @apply bg-white text-black; /* Set background to white and text color to black */
