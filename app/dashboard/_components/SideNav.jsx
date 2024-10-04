@@ -32,7 +32,7 @@ function SideNav({ isOpen }) { // Accept isOpen prop
       id: 4,
       name: 'Download',
       icon: Download,
-      path: '#'
+      path: '/dashboard/download'
     },
     {
       id: 5,
@@ -74,7 +74,7 @@ function SideNav({ isOpen }) { // Accept isOpen prop
       id: 11,
       name: 'Share',
       icon: Send,
-      path: '#'
+      path: '/dashboard/share'
     },
     {
       id: 12,
