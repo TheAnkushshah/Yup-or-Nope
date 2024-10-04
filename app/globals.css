@@ -109,9 +109,8 @@
 }
 
     .recharts-legend-wrapper {
-      width: 270px !important; /* Adjust as needed */
+      width: 300px !important; /* Adjust as needed */
     }
-
 
 input {
   @apply bg-white text-black; /* Set background to white and text color to black */
