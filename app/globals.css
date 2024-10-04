@@ -109,8 +109,8 @@
 }
 
     .recharts-legend-wrapper {
-      width: 275px !important; /* Adjust as needed */
-      top: 282px
+      width: 300px !important; /* Adjust as needed */
+      top: 280px
     }
 
 input {
