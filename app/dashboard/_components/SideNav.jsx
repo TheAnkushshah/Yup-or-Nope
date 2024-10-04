@@ -100,7 +100,7 @@ function SideNav({ isOpen }) { // Accept isOpen prop
 
       {menuList.map((menu) => (
         <Link key={menu.id} href={menu.path} target={menu.path.startsWith('http') ? '_blank' : '_self'}>
-          <h2 className={`flex items-center gap-3 text-md p-4 text-slate-600 hover:bg-gray-700 transition-all duration-300 ease-in-out transform hover:scale-105 hover:text-white cursor-pointer rounded-lg my-1 ${path === menu.path ? 'bg-gray-700 text-white' : ''}`}>
+          <h2 className={`flex items-center gap-3 text-md p-4 text-slate-600 hover:bg-gray-700 transition-all duration-300 ease-in-out transform hover:scale-10 hover:text-white cursor-pointer rounded-lg my-1 ${path === menu.path ? 'bg-gray-700 text-white' : ''}`}>
             <menu.icon />
             {menu.name}
           </h2>
