@@ -91,11 +91,11 @@ function SideNav({ isOpen }) { // Accept isOpen prop
   }, [path]);
   
   return (
-    <div className={`border shadow-md h-screen p-2 py-5 overflow-y-auto overflow-x-hidden transition-transform duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}>
+    <div className="border shadow-md h-full p-2 py-5 overflow-y-auto overflow-x-hidden">
       <Link href="/" className="flex items-center gap-3">
         <Image src={'/op.png'} width={440} height={110} alt='Yup or Nope' />
       </Link>
-      
+
       <hr className='my-5 -mx-2 w-screen'></hr>
 
       {menuList.map((menu) => (

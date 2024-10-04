@@ -7,18 +7,17 @@ import { Menu } from 'lucide-react'; // Import Menu icon from lucide-react
 
 function Header({ toggleSidebar }) {
   const { user } = useKindeBrowserClient();
-  
+
   return (
     <div className='p-5 shadow-sm border flex justify-between items-center'>
       {/* Hamburger icon for mobile view */}
       <div className="block md:hidden"> {/* Only show on screens smaller than 769px */}
-        <button onClick={toggleSidebar} aria-label="Open Sidebar">
+        <button onClick={toggleSidebar} aria-label="Toggle Sidebar">
           <Menu size={24} />
         </button>
       </div>
 
-      {/* This empty div ensures the user image is always at the end */}
-      <div className="flex-1"></div>
+      <div className="flex-1"></div> {/* Ensure spacing for the user image */}
 
       <div>
         <Image 
