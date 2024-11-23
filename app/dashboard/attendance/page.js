@@ -26,7 +26,7 @@ function Attendance() {
     return (
         <div className='p-7'>
             <h2 className='text-2xl font-bold'>Attendance</h2>
-
+            <p className='mt-2'>Built with ❤️ by Haven Futures</p>
             {/* Search options */}
             <div className='flex gap-5 my-4 p-5 border rounded-lg shadow-sm max-lg:flex-col max-sm:flex-col'>
                 <div className='flex items-center gap-3'>
