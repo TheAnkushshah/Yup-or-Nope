@@ -83,7 +83,7 @@ This project stands for tracking and marking attendance, a widely required tool 
 
 1. **Download ZIP Code folder:** 
 
-    Unzip the folder in your machine
+    Unzip the folder in your machine.
 
 2. **Navigate to the Downloaded Directory:** 
 
