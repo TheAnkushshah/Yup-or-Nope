@@ -55,13 +55,13 @@ This project stands for tracking and marking attendance, a widely required tool 
 
 ## <a name="getting-started">Getting Started</a>
 
-Prerequisites
+### Prerequisites
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-Now Follow these steps for cloning:
+### Steps for cloning:
 
 1. **Cloning:** Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
@@ -75,7 +75,7 @@ git clone https://github.com/theankushshah/Yup-or-Nope.git
 cd yup-or-nope-clone
 ```
 
-If you don't want to clone, instead want to create seperate, do these steps:
+### Steps for download:
 
 
 1. **Download ZIP Code folder:** Unzip the folder in your machine
@@ -87,7 +87,7 @@ If you don't want to clone, instead want to create seperate, do these steps:
 cd /path/to/downloaded/folder
 ```
 
-Now Follow these steps for both cloning & download:
+### Steps for both cloning & download:
 
 1. **Dependencies Installation:**
 
@@ -132,7 +132,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-5. **Start modifying:** Feel free to edit the code according to your requirements. 
+5. **Start Coding:** Feel free to edit the code according to your requirements. 
 
 6. **Testing**
 
@@ -146,7 +146,7 @@ npm test
 npm run build
 ```
 
-Now Follow these steps for both download & cloning in order to upload on github:
+### Steps for both cloning & download in order to upload on github:
 
 1. **Initialize a New Git Repository:**
 
@@ -184,7 +184,7 @@ git push -u origin main
 6. **Deployment:** Deploy the application to your preferred hosting platform to make it accessible online.
 
 
-Now Follow these steps if you're forking:
+### Steps for forking:
 
 1. **Forking:** Run the following command in your terminal or command prompt to fork the repository to your local machine:
 
