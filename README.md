@@ -2,11 +2,11 @@
 
 This project stands for tracking and marking attendance, a widely required tool for institutions. It enables teachers to securely log in, adding students and their information, marking attendance by checking boxes and access various functionalities such as report sharing and downloading.
 
-## Preview
+### Preview
 
 ![Preview](public/Preview.png)
 
-## <a name="table">Table of Contents</a>
+### <a name="table">Table of Contents</a>
 
 1. [Tech Stack](#tech-stack)
 2. [Features](#features)
@@ -15,7 +15,7 @@ This project stands for tracking and marking attendance, a widely required tool 
 5. [Feedback](#feedback)
 
 
-## <a name="tech-stack">Tech Stack</a>
+### <a name="tech-stack">Tech Stack</a>
 
 - Next.js
 - JavaScript
@@ -27,7 +27,7 @@ This project stands for tracking and marking attendance, a widely required tool 
 - shadcn
 - Tailwind CSS
 
-## <a name="features">Features</a>
+### <a name="features">Features</a>
 
 - **Authentication**: Implements authentication and authorization features using Kinde, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
 
@@ -238,11 +238,11 @@ This project stands for tracking and marking attendance, a widely required tool 
 
     **I will review your pull request and decide whether to merge your changes into my repository or not**
 
-## Feedback
+### Feedback
 
 You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
 
-## Developer & Main
+### Developer & Main
 
 - Ankush Shah (ankushsahvlogs@gmail.com) (Main)
 
