@@ -76,7 +76,7 @@ This project stands for tracking and marking attendance, a widely required tool 
     Once cloned, navigate into the project directory using the `cd` command:
 
     ```bash
-    cd yup-or-nope-clone
+    cd yup-or-nope
     ```
 
 ### Download:
