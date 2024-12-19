@@ -59,7 +59,7 @@ This project stands for tracking and marking attendance, a widely required tool 
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-### Cloning:
+### Cloning
 
 1. **Cloning:** 
 
@@ -77,7 +77,7 @@ This project stands for tracking and marking attendance, a widely required tool 
     cd yup-or-nope
     ```
 
-### Download:
+### Download
 
 1. **Download ZIP Code folder:** 
 
@@ -91,7 +91,7 @@ This project stands for tracking and marking attendance, a widely required tool 
     cd /path/to/downloaded/folder
     ```
 
-### Cloning & Download:
+### Cloning & Download
 
 1. **Dependencies Installation:**
 
@@ -157,7 +157,7 @@ This project stands for tracking and marking attendance, a widely required tool 
     npm run build
     ```
 
-### Github:
+### Github
 
 1. **Initialize a New Git Repository:**
 
@@ -196,7 +196,7 @@ This project stands for tracking and marking attendance, a widely required tool 
     
     Deploy the application to your preferred hosting platform to make it accessible online.
 
-### Forking:
+### Forking
 
 1. **Forking:** 
 
