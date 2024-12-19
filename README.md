@@ -116,14 +116,14 @@ Replace the placeholder values with your actual Kinde & Database credentials. Yo
 
 3. **Database Run:**
 
-Run the following command to run the database:
+    Run the following command to run the database:
 
     ```bash
     npm run db:push
     npm run db:studio 
     ```
 
-Open [https://local.drizzle.studio](https://local.drizzle.studio) in your browser to view the database.
+    Open [https://local.drizzle.studio](https://local.drizzle.studio) in your browser to view the database.
 
 4. **Running:**
 
@@ -131,7 +131,7 @@ Open [https://local.drizzle.studio](https://local.drizzle.studio) in your browse
     npm run dev
     ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+    Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
 5. **Start Coding:** Feel free to edit the code according to your requirements. 
 
@@ -164,7 +164,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 3. **Create a New Repository on GitHub:**
 
-Mark - Do not initialize the new repository with a README, .gitignore, or license (since the code is already downloaded & cloned, it’s not needed).
+    Do not initialize the new repository with a README, .gitignore, or license.
 
 4. **Link Local Repository to GitHub:**
 
@@ -172,7 +172,7 @@ Mark - Do not initialize the new repository with a README, .gitignore, or licens
     git remote add origin https://github.com/username/new-repo.git
     ```
 
-Replace https://github.com/username/new-repo.git with your actual repository URL.
+    Replace https://github.com/username/new-repo.git with your actual repository URL.
 
 5. **Push Code to GitHub:**
 
@@ -216,7 +216,7 @@ Replace https://github.com/username/new-repo.git with your actual repository URL
 - Review your changes and write a clear description of your contribution.
 - Click "Create pull request"
 
-I will review your pull request and decide whether to merge your changes into my repository or not.
+    I will review your pull request and decide whether to merge your changes into my repository or not.
 
 ## Feedback
 
