@@ -110,7 +110,8 @@ KINDE_POST_LOGIN_REDIRECT_URL=
 DRIZZLE_DATABASE_URL=
 ```
 
-Don't get confuse by (DRIZZLE_DATABASE_URL) 
+Don't get confuse by (DRIZZLE_DATABASE_URL)
+
 It's actually Neon Postgresql Database but I just named it like DRIZZLE_DATABASE_URL
 
 Replace the placeholder values with your actual Kinde & Database credentials. You can obtain these credentials by signing up on the [Kinde website](https://kinde.com/) and [Neon website](https://www.neon.tech/)
@@ -165,7 +166,7 @@ git commit -m "Initial commit with downloaded code"
 
 3. **Create a New Repository on GitHub:**
 
-Note - Do NOT initialize the new repository with a README, .gitignore, or license (since the code is already downloaded & cloned, it’s not needed).
+Mark - Do not initialize the new repository with a README, .gitignore, or license (since the code is already downloaded & cloned, it’s not needed).
 
 4. **Link Local Repository to GitHub:**
 
