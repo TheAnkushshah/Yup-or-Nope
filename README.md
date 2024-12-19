@@ -63,13 +63,17 @@ This project stands for tracking and marking attendance, a widely required tool 
 
 ### Cloning:
 
-1. **Cloning:** Run the following command in your terminal or command prompt to clone the repository to your local machine:
+1. **Cloning:** 
+
+    Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
     ```bash
     git clone https://github.com/theankushshah/Yup-or-Nope.git
     ```
 
-2. **Navigate to the Directory:** Once cloned, navigate into the project directory using the `cd` command:
+2. **Navigate to the Directory:** 
+    
+    Once cloned, navigate into the project directory using the `cd` command:
 
     ```bash
     cd yup-or-nope-clone
@@ -77,9 +81,13 @@ This project stands for tracking and marking attendance, a widely required tool 
 
 ### Download:
 
-1. **Download ZIP Code folder:** Unzip the folder in your machine
+1. **Download ZIP Code folder:** 
 
-2. **Navigate to the Downloaded Directory:** Open your code editor and open the unzipped folder in it then:
+    Unzip the folder in your machine
+
+2. **Navigate to the Downloaded Directory:** 
+
+    Open your code editor and open the unzipped folder in it then:
 
     ```bash
     cd /path/to/downloaded/folder
@@ -93,7 +101,9 @@ This project stands for tracking and marking attendance, a widely required tool 
     npm install
     ```
 
-2. **Environment Variables & Database Setup:** Create a new file named `.env` in the root of your project and add the following content:
+2. **Environment Variables & Database Setup:** 
+
+    Create a new file named `.env` in the root of your project and add the following content:
 
     ```env
     KINDE_CLIENT_ID=
@@ -133,7 +143,9 @@ This project stands for tracking and marking attendance, a widely required tool 
 
     Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-5. **Start Coding:** Feel free to edit the code according to your requirements. 
+5. **Start Coding:** 
+
+    Feel free to edit the code according to your requirements. 
 
 6. **Testing**
 
@@ -182,25 +194,35 @@ This project stands for tracking and marking attendance, a widely required tool 
     git push -u origin main
     ```
 
-6. **Deployment:** Deploy the application to your preferred hosting platform to make it accessible online.
+6. **Deployment:** 
+    
+    Deploy the application to your preferred hosting platform to make it accessible online.
 
 ### Forking:
 
-1. **Forking:** Run the following command in your terminal or command prompt to fork the repository to your local machine:
+1. **Forking:** 
+
+    Run the following command in your terminal or command prompt to fork the repository to your local machine:
 
     ```bash
     git clone https://github.com/your-username/Yup-or-Nope.git
     ```
 
-2. **Navigate to the Directory:** Once cloned, navigate into the project directory using the `cd` command:
+2. **Navigate to the Directory:** 
+
+    Once cloned, navigate into the project directory using the `cd` command:
 
     ```bash
     cd yup-or-nope
     ```
 
-3. **Start Coding:** Make the additions & desired changes to the code.
+3. **Start Coding:** 
 
-4. **Commit & Push Your Changes to Your Fork:** Once cloned, navigate into the project directory using the `cd` command:
+    Make the additions & desired changes to the code.
+
+4. **Commit & Push Your Changes to Your Fork:** 
+
+    Once cloned, navigate into the project directory using the `cd` command:
 
     ```bash
     git add .
