@@ -51,7 +51,7 @@ This project stands for tracking and marking attendance, a widely required tool 
 
 - **Responsive Design** Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
 
-## <a name="getting-started">Getting Started</a>
+### <a name="getting-started">Getting Started</a>
 
 ### Prerequisites
 
