@@ -108,11 +108,11 @@ This project stands for tracking and marking attendance, a widely required tool 
     DRIZZLE_DATABASE_URL=
     ```
 
-Don't get confuse by (DRIZZLE_DATABASE_URL)
+    Don't get confuse by DRIZZLE_DATABASE_URL
 
-It's actually Neon Postgresql Database but I just named it like DRIZZLE_DATABASE_URL
+    It's actually Neon Postgresql Database but I just named it like DRIZZLE_DATABASE_URL
 
-Replace the placeholder values with your actual Kinde & Database credentials. You can obtain these credentials by signing up on the [Kinde website](https://kinde.com/) and [Neon website](https://www.neon.tech/)
+    Replace the placeholder values with your actual Kinde & Database credentials. You can obtain these credentials by signing up on the [Kinde website](https://kinde.com/) and [Neon website](https://www.neon.tech/)
 
 3. **Database Run:**
 
