@@ -61,7 +61,7 @@ This project stands for tracking and marking attendance, a widely required tool 
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-### Steps for cloning:
+### Cloning:
 
 1. **Cloning:** Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
@@ -75,7 +75,7 @@ This project stands for tracking and marking attendance, a widely required tool 
     cd yup-or-nope-clone
     ```
 
-### Steps for download:
+### Download:
 
 1. **Download ZIP Code folder:** Unzip the folder in your machine
 
@@ -85,7 +85,7 @@ This project stands for tracking and marking attendance, a widely required tool 
     cd /path/to/downloaded/folder
     ```
 
-### Steps for both cloning & download:
+### Cloning & Download:
 
 1. **Dependencies Installation:**
 
@@ -147,7 +147,7 @@ This project stands for tracking and marking attendance, a widely required tool 
     npm run build
     ```
 
-### Steps for both cloning & download in order to upload on github:
+### Github:
 
 1. **Initialize a New Git Repository:**
 
@@ -184,7 +184,7 @@ This project stands for tracking and marking attendance, a widely required tool 
 
 6. **Deployment:** Deploy the application to your preferred hosting platform to make it accessible online.
 
-### Steps for forking:
+### Forking:
 
 1. **Forking:** Run the following command in your terminal or command prompt to fork the repository to your local machine:
 
