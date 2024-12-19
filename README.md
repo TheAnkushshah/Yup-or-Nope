@@ -216,7 +216,7 @@ This project stands for tracking and marking attendance, a widely required tool 
 - Review your changes and write a clear description of your contribution.
 - Click "Create pull request"
 
-    I will review your pull request and decide whether to merge your changes into my repository or not.
+6. **I will review your pull request and decide whether to merge your changes into my repository or not**
 
 ## Feedback
 
@@ -226,4 +226,4 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 - Ankush Shah (ankushsahvlogs@gmail.com) (Main)
 
-Happy coding! 🚀
+Happy coding!
