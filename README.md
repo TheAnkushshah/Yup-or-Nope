@@ -4,7 +4,7 @@ This project stands for tracking and marking attendance, a widely required tool 
 
 ### Preview
 
-![Preview](public/Preview.png)
+![Preview](public/fish.png)
 
 ### <a name="table">Table of Contents</a>
 
