@@ -65,50 +65,48 @@ This project stands for tracking and marking attendance, a widely required tool 
 
 1. **Cloning:** Run the following command in your terminal or command prompt to clone the repository to your local machine:
 
-```bash
-git clone https://github.com/theankushshah/Yup-or-Nope.git
-```
+    ```bash
+    git clone https://github.com/theankushshah/Yup-or-Nope.git
+    ```
 
 2. **Navigate to the Directory:** Once cloned, navigate into the project directory using the `cd` command:
 
-```bash
-cd yup-or-nope-clone
-```
+    ```bash
+    cd yup-or-nope-clone
+    ```
 
 ### Steps for download:
 
-
 1. **Download ZIP Code folder:** Unzip the folder in your machine
-
 
 2. **Navigate to the Downloaded Directory:** Open your code editor and open the unzipped folder in it then:
 
-```bash
-cd /path/to/downloaded/folder
-```
+    ```bash
+    cd /path/to/downloaded/folder
+    ```
 
 ### Steps for both cloning & download:
 
 1. **Dependencies Installation:**
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 2. **Environment Variables & Database Setup:** Create a new file named `.env` in the root of your project and add the following content:
 
-```env
-KINDE_CLIENT_ID=
-KINDE_CLIENT_SECRET=
+    ```env
+    KINDE_CLIENT_ID=
+    KINDE_CLIENT_SECRET=
 
-KINDE_ISSUER_URL=
-KINDE_SITE_URL=
+    KINDE_ISSUER_URL=
+    KINDE_SITE_URL=
 
-KINDE_POST_LOGOUT_REDIRECT_URL=
-KINDE_POST_LOGIN_REDIRECT_URL=
+    KINDE_POST_LOGOUT_REDIRECT_URL=
+    KINDE_POST_LOGIN_REDIRECT_URL=
 
-DRIZZLE_DATABASE_URL=
-```
+    DRIZZLE_DATABASE_URL=
+    ```
 
 Don't get confuse by (DRIZZLE_DATABASE_URL)
 
@@ -120,18 +118,18 @@ Replace the placeholder values with your actual Kinde & Database credentials. Yo
 
 Run the following command to run the database:
 
-```bash
-npm run db:push
-npm run db:studio 
-```
+    ```bash
+    npm run db:push
+    npm run db:studio 
+    ```
 
 Open [https://local.drizzle.studio](https://local.drizzle.studio) in your browser to view the database.
 
 4. **Running:**
 
-```bash
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
@@ -139,30 +137,30 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 6. **Testing**
 
-```bash
-npm test
-```
+    ```bash
+    npm test
+    ```
 
 7. **Build for Production**
 
-```bash
-npm run build
-```
+    ```bash
+    npm run build
+    ```
 
 ### Steps for both cloning & download in order to upload on github:
 
 1. **Initialize a New Git Repository:**
 
-```bash
-git init
-```
+    ```bash
+    git init
+    ```
 
 2. **Stage and Commit the Code:**
 
-```bash
-git add .
-git commit -m "Initial commit with downloaded code"
-```
+    ```bash
+    git add .
+    git commit -m "Initial commit with downloaded code"
+    ```
 
 3. **Create a New Repository on GitHub:**
 
@@ -170,50 +168,48 @@ Mark - Do not initialize the new repository with a README, .gitignore, or licens
 
 4. **Link Local Repository to GitHub:**
 
-```bash
-git remote add origin https://github.com/username/new-repo.git
-```
+    ```bash
+    git remote add origin https://github.com/username/new-repo.git
+    ```
 
 Replace https://github.com/username/new-repo.git with your actual repository URL.
 
 5. **Push Code to GitHub:**
 
-```bash
-git branch -m main
-git pull origin main
-git push -u origin main
-```
+    ```bash
+    git branch -m main
+    git pull origin main
+    git push -u origin main
+    ```
 
 6. **Deployment:** Deploy the application to your preferred hosting platform to make it accessible online.
-
 
 ### Steps for forking:
 
 1. **Forking:** Run the following command in your terminal or command prompt to fork the repository to your local machine:
 
-```bash
-git clone https://github.com/your-username/Yup-or-Nope.git
-```
+    ```bash
+    git clone https://github.com/your-username/Yup-or-Nope.git
+    ```
 
 2. **Navigate to the Directory:** Once cloned, navigate into the project directory using the `cd` command:
 
-```bash
-cd yup-or-nope
-```
+    ```bash
+    cd yup-or-nope
+    ```
 
-5. **Start Coding:** Make the additions & desired changes to the code.
+3. **Start Coding:** Make the additions & desired changes to the code.
 
+4. **Commit & Push Your Changes to Your Fork:** Once cloned, navigate into the project directory using the `cd` command:
 
-3. **Commit & Push Your Changes to Your Fork:** Once cloned, navigate into the project directory using the `cd` command:
+    ```bash
+    git add .
+    git commit -m ""
+    git pull origin main
+    git push -u origin main
+    ```
 
-```bash
-git add .
-git commit -m ""
-git pull origin main
-git push -u origin main
-```
-
-3. **Create a Pull Request:**
+5. **Create a Pull Request:**
 
 - Go to your forked repository on GitHub
 - Click the "Compare & pull request" button.
