@@ -11,8 +11,8 @@ This project stands for tracking and marking attendance, a widely required tool 
 1. [Tech Stack](#tech-stack)
 2. [Features](#features)
 3. [Getting Started](#getting-started)
-4. [Contributors](#contributors)
-5. [Feedback](#feedback)
+4. [Feedback](#feedback)
+5. [Contributors](#contributors)
 
 
 ### <a name="tech-stack">Tech Stack</a>
@@ -169,7 +169,7 @@ This project stands for tracking and marking attendance, a widely required tool 
 
     ```bash
     git add .
-    git commit -m "Initial commit with downloaded code"
+    git commit -m "Initial commit"
     ```
 
 3. **Create a New Repository on GitHub:**
@@ -238,11 +238,11 @@ This project stands for tracking and marking attendance, a widely required tool 
 
     **I will review your pull request and decide whether to merge your changes into my repository or not**
 
-### Feedback
+### <a name="feedback">Feedback</a>
 
 You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
 
-### Developer & Main
+### <a name="contributors">Contributors & Main</a>
 
 - Ankush Shah (ankushsahvlogs@gmail.com) (Main)
 
