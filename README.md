@@ -23,6 +23,8 @@ This project stands for tracking and marking attendance, a widely required tool 
 - Neon - Postgresql
 - Drizzle
 - Neon
+- HTML5
+- CSS3
 - React
 - shadcn
 - Tailwind CSS
