@@ -1,4 +1,4 @@
-### Yup or Nope - An Attendance Platform
+### Yup or Nope
 
 This project stands for tracking and marking attendance, a widely required tool for institutions. It enables teachers to securely log in, adding students and their information, marking attendance by checking boxes and access various functionalities such as report sharing and downloading.
 
