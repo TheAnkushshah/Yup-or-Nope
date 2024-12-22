@@ -29,27 +29,27 @@ This project stands for tracking and marking attendance, a widely required tool 
 
 ### <a name="features">Features</a>
 
-- **Authentication**: Implements authentication and authorization features using Kinde, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
+- **Authentication:** Implements authentication and authorization features using Kinde, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
 
-- **Appealing Interface** On home page bar graphs and pie charts are there, select month and grade and booooom.
+- **Appealing Interface:** On home page bar graphs and pie charts are there, select month and grade and booooom.
 
-- **Report Sharing** Share attendance report with others easily via any social media or apps.
+- **Report Sharing:** Share attendance report with others easily via any social media or apps.
 
-- **Collaboration** Any class teacher can simultaneously access whole school students list and can mark attendance.
+- **Collaboration:** Any class teacher can simultaneously access whole school students list and can mark attendance.
 
-- **Adding Students** Onboard students with the correct and relevant information.
+- **Adding Students:** Onboard students with the correct and relevant information.
 
-- **Delete Students** Easily delete students from the students list in case he/she no more in your institution.
+- **Delete Students:** Easily delete students from the students list in case he/she no more in your institution.
 
-- **Report Download** Use Download section to get all the data saved in your device.
+- **Report Download:** Use Download section to get all the data saved in your device.
 
-- **Search Functionality** Powerful search tools to quickly locate students using roll number, grade & section, or address.
+- **Search Functionality:** Powerful search tools to quickly locate students using roll number, grade & section, or address.
 
-- **Mark Attendance** Go to attendance section choose the class and start marking attendance also can see previous months attendance.
+- **Mark Attendance:** Go to attendance section choose the class and start marking attendance also can see previous months attendance.
 
-- **Security Features** Protect account with encryption and two-factor authentication for added security.
+- **Security Features:** Protect account with encryption and two-factor authentication for added security.
 
-- **Responsive Design** Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
+- **Responsive Design:** Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
 
 ### <a name="getting-started">Getting Started</a>
 
