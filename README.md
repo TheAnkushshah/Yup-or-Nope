@@ -246,6 +246,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 ### <a name="contributors">Contributors & Main</a>
 
-- Ankush Shah (ankushsahvlogs@gmail.com) (Main)
+- Ankush Shah (ankushsahvlogs@gmail.com)
+- Haven Futures (support@havenfutures.com) (Main)
 
 Happy coding!
