@@ -25,7 +25,8 @@ Tracking and marking attendance, a widely required tool for institutions. It ena
 - HTML5
 - CSS3
 - React.js
-- shadcn
+- Node.js
+- NPM
 - Tailwind CSS
 
 ### <a name="features">Features</a>
