@@ -14,7 +14,6 @@ Tracking and marking attendance, a widely required tool for institutions. It ena
 4. [Feedback](#feedback)
 5. [Contributors](#contributors)
 
-
 ### <a name="tech-stack">Tech Stack</a>
 
 - Next.js
@@ -25,7 +24,7 @@ Tracking and marking attendance, a widely required tool for institutions. It ena
 - Neon
 - HTML5
 - CSS3
-- React
+- React.js
 - shadcn
 - Tailwind CSS
 
