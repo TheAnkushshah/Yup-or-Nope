@@ -4,7 +4,7 @@ Tracking and marking attendance, a widely required tool for institutions. It ena
 
 ### Preview
 
-![Preview](public/fish.png)
+![Preview](public/Preview.png)
 
 ### <a name="table">Table of Contents</a>
 
