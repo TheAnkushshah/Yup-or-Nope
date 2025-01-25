@@ -24,7 +24,7 @@ function Student() {
         <h2 className='font-bold text-2xl flex justify-between items-center max-sm:flex-col gap-2'>Students<AddNewStudent refreshData={GetAllStudents}/></h2>
         <p className='mb-4 max-sm:mt-4'>Built with 💚 by Haven Futures</p>
         <StudentListTable studentList={studentList} 
-        refrestData={GetAllStudents}/>
+        refreshData={GetAllStudents}/>
     </div>
   )
 }

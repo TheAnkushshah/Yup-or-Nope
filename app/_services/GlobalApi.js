@@ -1,26 +1,16 @@
-const { default: axios } = require("axios");
+import axios from 'axios';
 
-const GetAllGrades=()=>axios.get('/api/grade');
-const CreateNewStudent=(data)=>axios.post('/api/student',data)
+const BASE_URL = '/api';
 
-const GetAllStudents=()=>axios.get('/api/student');
+const GlobalApi = {
+  GetAllGrades: () => axios.get(`${BASE_URL}/grade`),
+  CreateNewStudent: (data) => axios.post(`${BASE_URL}/student`, data),
+  GetAllStudents: () => axios.get(`${BASE_URL}/student`),
+  DeleteStudentRecord: (id) => axios.delete(`${BASE_URL}/student?id=${id}`),
+  GetAttendanceList: (grade, month) => axios.get(`${BASE_URL}/attendance?grade=${grade}&month=${month}`),
+  MarkAttendance: (data) => axios.post(`${BASE_URL}/attendance`, data),
+  MarkAbsent: (studentId, day, date) => axios.delete(`${BASE_URL}/attendance?studentId=${studentId}&day=${day}&date=${date}`),
+  TotalPresentCountByDay: (date, grade) => axios.get(`${BASE_URL}/dashboard?date=${date}&grade=${grade}`),
+};
 
-const DeleteStudentRecord=(id)=>axios.delete('/api/student?id='+id)
-
-const GetAttendanceList=(grade,month)=>axios.get('/api/attendance?grade='+grade+"&month="+month)
-
-const MarkAttendance=(data)=>axios.post('/api/attendance',data);
-
-const MarkAbsent=(studentId,day,date)=>axios.delete('/api/attendance?studentId='+studentId+"&day="+day+"&date="+date)
-
-const TotalPresentCountByDay=(date,grade)=>axios.get('/api/dashboard?date='+date+"&grade="+grade);
-export default{
-    GetAllGrades,
-    CreateNewStudent,
-    GetAllStudents,
-    DeleteStudentRecord,
-    GetAttendanceList,
-    MarkAttendance,
-    MarkAbsent,
-    TotalPresentCountByDay
-}
+export default GlobalApi;

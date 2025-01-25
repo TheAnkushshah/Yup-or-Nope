@@ -22,7 +22,7 @@ const pagination = true;
 const paginationPageSize = 15;
 const paginationPageSizeSelector = [15, 25, 50, 100];
 
-function StudentListTable({ studentList, refrestData }) {
+function StudentListTable({ studentList, refreshData }) {
 
     const CustomButons = (props) => {
         return (
@@ -57,7 +57,7 @@ function StudentListTable({ studentList, refrestData }) {
         { field: "id", filter: true },
         { field: "name", filter: true },
         { field: "grade", filter: true },
-        { field: "sectionandstream", headerName: "Section & Stream", filter: true },
+        { field: "sectionandStream", headerName: "Section & Stream", filter: true },
         { field: "rollnumber", headerName: "Roll Number", filter: true },
         { field: "address", filter: true },
         { field: "contact", filter: true },
@@ -75,7 +75,7 @@ function StudentListTable({ studentList, refrestData }) {
         GlobalApi.DeleteStudentRecord(id).then(resp => {
             if (resp) {
                 toast('Student deleted successfully 🎉');
-                refrestData();
+                refreshData();
             }
         });
     };

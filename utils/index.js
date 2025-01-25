@@ -8,23 +8,24 @@ const sql = neon(process.env.DRIZZLE_DATABASE_URL); // Ensure DRIZZLE_DATABASE_U
 // Initialize Drizzle ORM with the Neon SQL instance
 export const db = drizzle(sql);
 
-// Define an async function to fetch students with their grades
+// Define an async function to fetch grades
 async function fetchGrades() {
+  console.log('Fetching grades...');
   try {
-    // Fetch all grades
     const result = await db
       .select({
         id: GRADES.id,
         grade: GRADES.grade,
       })
-      .from(GRADES)
+      .from(GRADES);
 
-    console.log('Grades:', result); // For debugging
+    console.log('Grades fetched from database:', result); // Log the fetched grades
+
     return result;
   } catch (error) {
     console.error('Error fetching grades:', error);
   }
 }
 
-// Execute the fetchStudentsWithGrades function
+// Execute the fetchGrades function
 fetchGrades();

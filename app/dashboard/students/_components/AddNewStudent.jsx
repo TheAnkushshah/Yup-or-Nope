@@ -93,7 +93,7 @@ function AddNewStudent({ refreshData }) {
                   <Input
                     className="focus:!outline-none focus:!ring-0 text-black"
                     placeholder="A - Non Medical"
-                    {...register('sectionandstream', { required: true })}
+                    {...register('sectionandStream', { required: true })}
                   />
                 </div>
                 <div className="py-3 max-sm:py-2">
